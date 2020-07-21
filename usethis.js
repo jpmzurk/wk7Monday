@@ -44,24 +44,3 @@ console.log(firstAndLast(arrayTwo));
 
 
 /// remember to call the variable before you do anything with the index value
-
-
-
-//Section 130///
-
-
-let arrayAndString = (["ASDF", "BLAH", "Oh!", "Hi", "There!"], 3);
-
-let arrayFirst = [1, 3, 4, 6];
-
-
-function loop (target) {
-  for (key of target) {
-    console.log(target[key]);
-  }
-}
-
-
-
-console.log(loop (arrayFirst));
-//hi there
